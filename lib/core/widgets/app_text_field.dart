@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../resources/colors_manager.dart';
 import '../resources/styles_manager.dart';
 
@@ -17,7 +18,7 @@ class AppTextField extends StatelessWidget {
       cursorColor: ColorsManager.primaryColor,
       decoration: InputDecoration(
         suffixIconConstraints: const BoxConstraints(
-          maxHeight: 10,
+          maxWidth: 25,
         ),
         label: Text(
           label,

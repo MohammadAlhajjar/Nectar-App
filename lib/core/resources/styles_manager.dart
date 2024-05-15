@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'colors_manager.dart';
 import 'constants_manager.dart';
 
 class StylesManager {
@@ -24,6 +25,18 @@ class StylesManager {
   static const TextStyle blackRegular16 = TextStyle(
     color: Color(0xFF181725),
     fontSize: 16.0,
+    fontWeight: FontWeight.w400,
+    fontFamily: ConstantsManager.fontFamilyPoppins,
+  );
+  static const TextStyle greenSemiBold12 = TextStyle(
+    color: ColorsManager.primaryColor,
+    fontSize: 12.0,
+    fontWeight: FontWeight.w400,
+    fontFamily: ConstantsManager.fontFamilyPoppins,
+  );
+  static const TextStyle blackSemiBold12 = TextStyle(
+    color: Color(0xFF181725),
+    fontSize: 12.0,
     fontWeight: FontWeight.w400,
     fontFamily: ConstantsManager.fontFamilyPoppins,
   );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+
 import '../resources/colors_manager.dart';
 import '../resources/constants_manager.dart';
 import '../resources/styles_manager.dart';

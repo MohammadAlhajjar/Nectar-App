@@ -6,8 +6,8 @@ import '../data/categories_data.dart';
 import 'category_items_view.dart';
 import '../widgets/category_card.dart';
 
-class ShopView extends StatelessWidget {
-  const ShopView({super.key});
+class ExploreView extends StatelessWidget {
+  const ExploreView({super.key});
 
   @override
   Widget build(BuildContext context) {
