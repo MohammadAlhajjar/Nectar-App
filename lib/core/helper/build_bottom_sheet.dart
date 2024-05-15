@@ -58,7 +58,7 @@ Future<void> buildBottomSheet(BuildContext context,
               padding: const EdgeInsets.symmetric(horizontal: 25),
               child: bottomSheetbody,
             ),
-            const Gap(43),
+            const Gap(26.5),
             AppButton(
               hasTrailing: false,
               text: buttonTitle,

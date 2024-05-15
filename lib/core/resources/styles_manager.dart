@@ -28,6 +28,12 @@ class StylesManager {
     fontWeight: FontWeight.w400,
     fontFamily: ConstantsManager.fontFamilyPoppins,
   );
+  static const TextStyle blackRegular14 = TextStyle(
+    color: Color(0xFF181725),
+    fontSize: 14.0,
+    fontWeight: FontWeight.w400,
+    fontFamily: ConstantsManager.fontFamilyPoppins,
+  );
   static const TextStyle greenSemiBold12 = TextStyle(
     color: ColorsManager.primaryColor,
     fontSize: 12.0,
